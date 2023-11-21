@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+h1{
+    font-weight: 900;
+}
+#result{
+    font-size: xx-large;
+
+}
+.joy{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.joy button{
+    height: 50px;
+    width: 100px;
+    background-color: tan;
+}
+
+.green {
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+.black{
+    color: black;
+}
